@@ -3,7 +3,7 @@
 
 using namespace std;
 
-bool arePermutation(string &str1, string &str2) {
+bool arePermutation(const string &str1, const string &str2) {
 	if (str1.length() != str2.length()) {
 		return false;
 	}
